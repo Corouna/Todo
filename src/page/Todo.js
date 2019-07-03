@@ -11,6 +11,7 @@ import Header from './../components/Header';
 import Field from './../components/Field';
 import Task from './../components/Task';
 
+/* Import SCSS for Todo page here */
 import './../css/Todo.scss';
 
 const Todo = props => {
