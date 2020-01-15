@@ -14,8 +14,6 @@ import Task from './../components/Task';
 /* Import SCSS for Todo page here */
 import './../css/Todo.scss';
 
-/* Now im adding back this comment for absolute justice! */
-
 
 const Todo = props => {
   const [ tasks, setTasks ] = useState( JSON.parse(localStorage.getItem('todoList')) || [] );
