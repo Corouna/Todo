@@ -14,10 +14,6 @@ import Task from './../components/Task';
 /* Import SCSS for Todo page here */
 import './../css/Todo.scss';
 
-/* This is a simple comment for me to test the Jenkins trigger function */
-// Adding another comment here might be good for our health
-
-
 const Todo = props => {
   const [ tasks, setTasks ] = useState( JSON.parse(localStorage.getItem('todoList')) || [] );
 
